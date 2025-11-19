@@ -197,31 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6111036aca19be849aa7d1e6fb21f709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LeftAction:
-    m_Name: Left
-    m_Type: 1
-    m_ExpectedControlType: Button
-    m_Id: 64a27b31-84ff-468c-9105-431f3d4d1c29
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 51bc26a7-0351-48e8-800e-822fe686f6ab
-      m_Path: <Keyboard>/leftArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Left
-      m_Flags: 0
-    - m_Name: 
-      m_Id: c6388190-03be-45cf-8f21-f2a761b0085d
-      m_Path: <Keyboard>/a
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Left
-      m_Flags: 0
-    m_Flags: 0
   MoveAction:
     m_Name: Move
     m_Type: 0
@@ -311,6 +286,7 @@ MonoBehaviour:
       m_Action: Move
       m_Flags: 8
     m_Flags: 0
+  speed: 1000
 --- !u!212 &778503779
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -372,7 +348,7 @@ Transform:
   m_GameObject: {fileID: 778503777}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.89, y: 0.18025312, z: 0}
+  m_LocalPosition: {x: -8.84, y: 0.18025312, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
