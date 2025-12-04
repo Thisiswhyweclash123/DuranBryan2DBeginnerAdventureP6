@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class Playercontrol : MonoBehaviour
 {
+   
 
     public InputAction MoveAction;
     public float speed = 3.0f;
@@ -21,9 +22,7 @@ public class Playercontrol : MonoBehaviour
     {
         Vector2 move = MoveAction.ReadValue<Vector2>();
         Debug.Log(move);
-
-        Vector2 postion = (Vector2)transform.position + move * 0.01f * Time.deltaTime;
-
+        Vector2 postion = (Vector2)transform.position + move * 3.0f * Time.deltaTime;
         transform.position = postion;
 
     }
